@@ -210,7 +210,7 @@ img{
     border-radius: .4rem;
     z-index: var(--z-tooltip);
     transition: .4s;
-    /* visibility: hidden; */
+    visibility: hidden;
 }
 
 .scrolltop:hover{
@@ -223,3 +223,7 @@ img{
 }
 
 /* show scroll */
+.scroll-top{
+    visibility: visible;
+    bottom: 1.5rem;
+}
