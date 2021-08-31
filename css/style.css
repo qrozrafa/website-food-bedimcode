@@ -260,6 +260,19 @@ img{
     transition: .3s;
 }
 /* SOBRE */
+.sobre__data{
+    text-align: center;
+}
+
+.sobre__description{
+    margin-bottom: var(--mb-3);
+}
+
+.sobre__img{
+    width: 280px;
+    border-radius: .6rem;
+    justify-self: center;
+}
 /* SERVIÇOS */
 /* CARDAPIO */
 /* APP */
