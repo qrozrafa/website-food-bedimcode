@@ -274,5 +274,30 @@ img{
     justify-self: center;
 }
 /* SERVIÇOS */
+.servicos__container{
+    row-gap: 2.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.servicos__content{
+    text-align: center;
+}
+
+.servicos__img{
+    width: 64px;
+    height: 64px;
+    fill: var(--first-color);
+    margin-bottom: var(--mb-2);
+}
+
+.servicos__title{
+    font-size: var(--h3-fonte-size);
+    color: var(--title-color);
+    margin-bottom: var(--mb-1);
+}
+
+.servicos__description{
+    padding: 0 1.5rem;
+}
 /* CARDAPIO */
 /* APP */
