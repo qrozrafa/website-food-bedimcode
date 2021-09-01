@@ -346,4 +346,26 @@ img{
     padding: .625rem .813rem;
     border-radius: .5rem 0 .5rem 0;
 }
+
 /* APP */
+.app__data{
+    text-align: center;
+}
+
+.app__description{
+    margin-bottom: var(--mb-5);
+}
+
+.app__stores{
+    margin-bottom: var(--mb-4);
+}
+
+.app__store{
+    width: 120px;
+    margin: 0 var(--mb-1);
+}
+
+.app__img{
+    width: 230px;
+    justify-self: center;
+}
