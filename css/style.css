@@ -369,3 +369,12 @@ img{
     width: 230px;
     justify-self: center;
 }
+
+/* CONTATO */
+.contato__container{
+    text-align: center;
+}
+
+.contato__description{
+    margin-bottom: var(--mb-3);
+}
