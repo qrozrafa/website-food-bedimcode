@@ -60,6 +60,24 @@ html{
     scroll-behavior: smooth;
 }
 
+/* VARAVIAVEIS DARK THEME */
+body.dark-theme{
+    --title-color: #f1f3f2;
+    --text-color: #c7d1cc;
+    --body-color: #1d2521;
+    --container-color: #27302c;
+}
+
+/* Button Dark/Light */
+.change-theme{
+    position: absolute;
+    right: 1rem;
+    top: 1.8rem;
+    color: var(--text-color);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
 body{
     margin: var(--header-height) 0 0 0;
     font-family: var(--body-font);
@@ -250,6 +268,7 @@ img{
     width: 300px;
     justify-self: center;
 }
+
 /* BUTTONS */
 .button{
     display: inline-block;
@@ -259,6 +278,7 @@ img{
     border-radius: .6rem;
     transition: .3s;
 }
+
 /* SOBRE */
 .sobre__data{
     text-align: center;
@@ -273,6 +293,7 @@ img{
     border-radius: .6rem;
     justify-self: center;
 }
+
 /* SERVIÇOS */
 .servicos__container{
     row-gap: 2.5rem;
@@ -299,6 +320,7 @@ img{
 .servicos__description{
     padding: 0 1.5rem;
 }
+
 /* CARDAPIO */
 .cardapio__container{
     grid-template-columns: repeat(2, 1fr);
@@ -477,6 +499,11 @@ img{
     }
     .nav__toggle{
         display: none;
+    }
+
+    .change-theme{
+        position: initial;
+        margin-left: var(--mb-2);
     }
 
     .home__container{
