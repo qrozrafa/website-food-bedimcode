@@ -93,3 +93,15 @@ themeButton.addEventListener('click', ()=>{
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
 })
+
+// SCROLL REVEAL ANIMATION
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '30px',
+    duration: 2000,
+    reset: true
+});
+
+sr.reveal('.home__data, .home__img, .sobre__data, .sobre__img, .servicos__content, .cardapio__content, .app__data, .app__img, .contato__data, .contato__button, .footer__content',{
+    interval: 200
+})
