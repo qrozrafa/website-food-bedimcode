@@ -18,7 +18,7 @@ Projeto template web inspirado e guiado por *-bedimcode*
 ![tela servie](https://uploaddeimagens.com.br/images/004/181/127/original/telaRestaurantService.jpg?1669583615)
 
 ### Menu
-[!tela menu](https://uploaddeimagens.com.br/images/004/181/130/original/telaRestaurantMenu.jpg?1669583731)
+![tela menu](https://uploaddeimagens.com.br/images/004/181/130/original/telaRestaurantMenu.jpg?1669583731)
 
 ### Contact
-[!tela contact](https://uploaddeimagens.com.br/images/004/181/131/original/telaRestaurantContact.jpg?1669583779)
+![tela contact](https://uploaddeimagens.com.br/images/004/181/131/original/telaRestaurantContact.jpg?1669583779)
